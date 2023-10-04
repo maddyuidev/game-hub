@@ -12,7 +12,7 @@ import SortSelector from "./components/SortSelector";
 export interface GameQuery {
   genre: Genre | null;
   platform: Platform | null;
-  sortOrder: string;
+  sortOrder: string | null;
 }
 
 function App() {
